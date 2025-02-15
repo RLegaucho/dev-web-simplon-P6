@@ -1,9 +1,5 @@
 
-/*body{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}*/
+
 *{
     margin: 0;
     padding: 0;
@@ -89,4 +85,12 @@ p{font-size: 1.35em;}
 }
 .pied_de_page div{
     margin-bottom: 8px;
+}
+
+/* BREAKPOINTS */
+
+@media screen and (max-width: 470px) {
+    .titre_a_propos{
+        font-size: 14px;
+    }
 }
